@@ -5,7 +5,7 @@ var snake = [];
 snake[0] = { x: 9 * box, y: 10 * box };
 var food = { x: Math.floor(Math.random() * 20 + 1) * box, y: Math.floor(Math.random() * 20 + 1) * box };
 var score = 0;
-var direction = "left";
+var direction = "right";
 var paused = false;
 var pauseMessageVisible = true;
 
