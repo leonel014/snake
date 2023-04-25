@@ -47,7 +47,7 @@ function checkGameOver(snakeHead, snake) {
     for (var i = 1; i < snake.length; i++) {
         if (snakeHead.x == snake[i].x && snakeHead.y == snake[i].y) {
             clearInterval(game);
-            // alert("Perdiste!");
+            alert("Perdiste!");
         }
     }
     if (snakeHead.x < 0 || snakeHead.x > 19 * box || snakeHead.y < 0 || snakeHead.y > 19 * box) {
